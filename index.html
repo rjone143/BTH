@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Beartooth Hiking Company</title>
+</head>
+<body>
+	<form action="cost" method="post">
+		<label>Select a Trail</label><br>
+		
+		<input type="radio" id="hell" name="trail" value="1">
+		<label for="hell">HellRoaring</label>
+		<input type="radio" id="gardiner" name="trail" value="2">
+		<label for="gardiner">Gardiner</label>
+		<input type="radio" id="beaten" name="trail" value="3">
+		<label for="beaten">Beaten</label><br>
+		
+		<label for="duration">Enter duration</label>
+		<input type="text" id="duration" name="duration"  maxlength= "2" value = "2-7"><br>
+		<label>Enter Start Date</label><br>
+		Month: <input type="text" name="month" maxlength= "2" value = "06"><br>
+		Day: <input type="text" name="day" maxlength= "2" value= "1"><br>
+		Year: <input type="text" name ="year" maxlength= "4" value = "2020"><br>
+		<button type="submit">Get Cost</button>
+	</form>
+</body>
+</html>
