@@ -1,2 +1,2 @@
-# BTH
+# BHC 
 Beartooth hiking company
