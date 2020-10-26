@@ -1,0 +1,2 @@
+# BTH
+Beartooth hiking company
